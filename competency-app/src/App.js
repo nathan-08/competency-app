@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <div id="fixed-element">position: fixed</div>
-        <h1>Header H1</h1>
+        <h1 style={{letterSpacing:"8px", fontFamily:"monospace", fontWeight:"1"}}>a truly remarkable website</h1>
         <div className= "classy-div">classy div</div>
         <img id="catjpg" src={catjpg} height="200px" width="200px" alt="floating cat"/>
         <div id="superawesome-div">superawesome div
