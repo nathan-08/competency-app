@@ -14,11 +14,20 @@
 }
 #superawesome-div p{  /*22C-4*/
   font-family: Courier New, Courier, monospace;
-  font-weight: bold;
+  font-weight: bold;    /*23D*/
+  color: cornflowerblue;  /*23D*/
+  font-size: 24px;        /*23D*/
   background-color: rebeccapurple;
 }
 .classy-div{
   font-family: Courier New, Courier, monospace;
   font-weight: bold;
   letter-spacing: 2px;
+}
+#box-model{
+  margin: 24px;     /*24C*/
+  border: solid 24px cornflowerblue; /*24D*/
+  padding: 24px;              /*24E*/
+  box-sizing: border-box;  /*24F*/
+  background-color: darkcyan;
 }

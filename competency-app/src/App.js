@@ -10,7 +10,7 @@ class App extends Component {
         <div className= "classy-div">classy div</div>
         <div id="superawesome-div">superawesome div
           <div>
-            I am a child element. 
+             I am a child element. 
           </div>
           <section>
             I am that ^ element's sibling
@@ -18,6 +18,9 @@ class App extends Component {
                 I am a descendent. 
               </p>
           </section>
+        </div>
+        <div id="box-model">
+            box model
         </div>
 
       </div>
