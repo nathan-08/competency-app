@@ -4,7 +4,7 @@ import './App.css';
 import catjpg from './img/bigcat.jpg'
 import dooter from './img/doot.gif'
 import doot from './mp4/doot.mp4'
-import swing from './mp3/swing.3gp'
+import swing from './mp3/swing.mp3'
 
 class App extends Component {
   render() {
@@ -119,7 +119,7 @@ class App extends Component {
             {/* 56D   html audio tag  */}
           <h2 style={{margin:"0"}}> high quality swing music</h2>
               <audio controls='controls'>
-                <source src={swing} type='audio/3gp'/>
+                <source src={swing} type='audio/mp3'/>
               </audio>
           </div>
         </div>
