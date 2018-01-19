@@ -49,7 +49,7 @@ class App extends Component {
         <div id="hover"></div>
         <div id="nic"></div>
 
-        <h3 style={{letterSpacing:"8px", fontFamily:"monospace", fontWeight:"1"}}>flexbox fun</h3>
+        <h3 style={{letterSpacing:"8px", fontFamily:"monospace", fontWeight:"1"}}>flexbox fun</h3> {/* 54J style attribute*/}
         <div id="flexbox">
           <div></div>
           <div></div>
