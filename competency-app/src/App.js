@@ -90,6 +90,21 @@ class App extends Component {
               <head></head>
               <body id='doot'>skeletn</body>
           </html>
+          {/* 55C Custom DOM Elements: You can make up element
+          names in your html, these are called custom elements. 
+          e.g. <noodle></noodle>
+          define elements using var noodle = document.registerElement('noodle')
+          this can be good practice for better readable code !  
+          55D  Semantic is a design method where we use apporpriately 
+          descriptive html elements such as NAV, SECTION, FOOTER, P to make
+          the DOM more readable. 55E-1 You provide more information about the
+          structure of your DOM. This helps search engines, SEO, and helps with
+          styling by giving you more hooks to use in you CSS. 
+          55E-2  best practice is be as descriptive as possible, using
+          identifiable sections, AKA semantic markup. 
+          
+          */}
+
         </div>
   
 
