@@ -7,7 +7,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div id="fixed-element">position: fixed</div>
         <h1 style={{letterSpacing:"8px", fontFamily:"monospace", fontWeight:"1"}}>a truly remarkable website</h1>
         <div className= "classy-div">classy div</div>
         <img id="catjpg" src={catjpg} height="200px" width="200px" alt="floating cat"/>
@@ -48,6 +47,18 @@ class App extends Component {
         <br/><br/>
         <div id="hover"></div>
         <div id="nic"></div>
+
+        <h3 style={{letterSpacing:"8px", fontFamily:"monospace", fontWeight:"1"}}>flexbox fun</h3>
+        <div id="flexbox">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+
+        </div>
       
   
 

@@ -1,7 +1,7 @@
 .App{     /*22C-2*/
   position: relative;
   margin: 0 4vw;
-  min-height: 150vh;
+  min-height: 350vh;
 }
 #catjpg{
   float:right;
@@ -66,16 +66,7 @@
   margin-right: 20px;
   border: 2px solid fuchsia;
 }
-#fixed-element{
-  position: fixed; /*25C*/
-  bottom:0;
-  left:0;
-  width: 100vw;
-  height: 6vh;
-  padding: 6px;
-  background-color: cornflowerblue;
-  border-bottom: 1px solid gray;
-}
+
 #abled:focus{     /*26G*/
   background: cornflowerblue;
 }
@@ -100,8 +91,8 @@ body{
 #nic{
   background: transparent;
   background-image: url('./img/floating-nic.png');
-  position: fixed;
-  height: 260px;
+  position: fixed;  /*25C*/
+  height: 260px; 
   width: 260px;
   top:250px;
   left: 60%;  
@@ -109,4 +100,27 @@ body{
 }
 #nic:hover{
   transform: rotate(45deg);
+}
+#flexbox{
+  display:flex; /*27G*/
+  justify-content: center; /*27C*/
+  align-items: center; /*27D*/
+  flex-wrap: wrap;  /*27E*/
+  flex-direction: row;  /*27F*/
+  background: coral;
+  padding: 18px;
+}
+#flexbox > div{
+  height: 140px;
+  width: 140px;
+  margin: 8px;
+  background: rgb(60, 4, 4);
+  background-image: url('./img/bigcat.jpg');
+  background-size: contain;
+}
+
+p, div {
+  font-family: monospace;
+  font-size: 18px;
+  letter-spacing: 3px;
 }
