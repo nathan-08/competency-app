@@ -189,3 +189,7 @@ p, div {
   border: 2px solid darkcyan;
   height: 20px;
 }
+#doot{
+  height: 260px;
+  background-image: url('./img/doot.gif');
+}

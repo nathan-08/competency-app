@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import catjpg from './img/bigcat.jpg'
+import dooter from './img/doot.gif'
 
 class App extends Component {
   render() {
@@ -74,6 +75,21 @@ class App extends Component {
             <div id='three'> </div>
           </div>   
 
+        </div>
+          {/* HTML 5 SECTION */}
+        <div>  
+          <p>p tag</p> {/*  54C*/}
+          <span>span tag</span> {/*  54C */}
+          <div>a w i l d d i v a p p e a r e d !</div> {/*  54C */}
+          <br/>{/*  54G */}
+          <section>a section ! </section>    {/*  54D */}
+          <article>article</article>
+          <footer>foot</footer>
+          <a href='http://www.lingscars.com'>award winning website</a>{/* 54H */}
+          <html>        {/* 54I */}
+              <head></head>
+              <body id='doot'>skeletn</body>
+          </html>
         </div>
   
 
