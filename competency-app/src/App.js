@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import catjpg from './img/bigcat.jpg'
 import dooter from './img/doot.gif'
+import doot from './mp4/doot.mp4'
 
 class App extends Component {
   render() {
@@ -104,7 +105,12 @@ class App extends Component {
           identifiable sections, AKA semantic markup. 
           
           */}
-
+          
+          {/* 56C   html video tag  */}
+          <h2 style={{margin:"0"}}> high quality doot vid</h2>
+          <video width="320" height="220" controls>
+            <source src={doot} type="video/mp4"/>
+          </video>
         </div>
   
 
