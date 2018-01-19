@@ -193,3 +193,8 @@ p, div {
   height: 260px;
   background-image: url('./img/doot.gif');
 }
+#flexy{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

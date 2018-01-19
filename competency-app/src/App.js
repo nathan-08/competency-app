@@ -4,6 +4,7 @@ import './App.css';
 import catjpg from './img/bigcat.jpg'
 import dooter from './img/doot.gif'
 import doot from './mp4/doot.mp4'
+import swing from './mp3/swing.mp3'
 
 class App extends Component {
   render() {
@@ -87,6 +88,7 @@ class App extends Component {
           <article>article</article>
           <footer>foot</footer>
           <a href='http://www.lingscars.com'>award winning website</a>{/* 54H */}
+          <h2 style={{margin:"0", textAlign:"center"}}> html skeleton</h2>
           <html>        {/* 54I */}
               <head></head>
               <body id='doot'>skeletn</body>
@@ -105,12 +107,22 @@ class App extends Component {
           identifiable sections, AKA semantic markup. 
           
           */}
-          
+        <div id="flexy">
           {/* 56C   html video tag  */}
+          <div>
           <h2 style={{margin:"0"}}> high quality doot vid</h2>
           <video width="320" height="220" controls>
             <source src={doot} type="video/mp4"/>
           </video>
+          </div>
+          <div>
+            {/* 56D   html audio tag  */}
+          <h2 style={{margin:"0"}}> high quality swing music</h2>
+              <audio controls='controls'>
+                <source src={swing} type='audio/mp3'/>
+              </audio>
+          </div>
+        </div>
         </div>
   
 
