@@ -59,6 +59,13 @@ class App extends Component {
           <div></div>
 
         </div>
+        <div className="container">
+          <div id="boxshadow">
+          </div>
+          <div id="gradient"></div>
+          <div id="texteffect"> fancy text
+          </div>
+        </div>
       
   
 

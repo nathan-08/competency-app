@@ -107,7 +107,7 @@ body{
   align-items: center; /*27D*/
   flex-wrap: wrap;  /*27E*/
   flex-direction: row;  /*27F*/
-  background: coral;
+  background: mediumslateblue;
   padding: 18px;
 }
 #flexbox > div{
@@ -118,9 +118,46 @@ body{
   background-image: url('./img/bigcat.jpg');
   background-size: contain;
 }
+#flexbox:hover{
+  background-color:cornflowerblue;
+}
 
 p, div {
   font-family: monospace;
   font-size: 18px;
   letter-spacing: 3px;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+#boxshadow{
+  margin: 22px;
+  height: 200px;
+  width: 200px;
+  background-color: snow;
+  box-shadow: 6px 8px 10px gray; /*30C*/
+  background-image: url('./img/cat-technician.jpg');
+  background-size: contain;
+}
+#gradient{
+  height: 200px;
+  width: 200px;
+  margin: 22px;
+  border: 2px solid gray;
+      /*30D*/
+      background: rgb(241,231,103); /* Old browsers */
+      background: -moz-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(-45deg, rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(135deg, rgba(241,231,103,1) 0%,rgba(254,182,69,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645',GradientType=1 ); 
+}
+#texteffect{
+  height: 200px;
+  width: 200px;
+  margin: 22px;
+  border: 2px solid gray;
+  color: rgb(255, 255, 255);
+  background-color: rgb(6, 230, 255);
+  text-shadow: 2px 2px rgb(131, 113, 113); /*30e*/
 }
