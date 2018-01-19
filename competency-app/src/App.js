@@ -47,6 +47,7 @@ class App extends Component {
         <input className="neat-input" id="disabled" disabled="true"/>
         <br/><br/>
         <div id="hover"></div>
+        <div id="nic"></div>
       
   
 

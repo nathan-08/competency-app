@@ -97,3 +97,16 @@ div:nth-child(odd){ /*26L*/
 body{
   background-image: url('./img/tile.jpg') /*23F*/
 }
+#nic{
+  background: transparent;
+  background-image: url('./img/floating-nic.png');
+  position: fixed;
+  height: 260px;
+  width: 260px;
+  top:250px;
+  left: 60%;  
+  /* transition: 2s ease-in-out; */
+}
+#nic:hover{
+  transform: rotate(45deg);
+}
