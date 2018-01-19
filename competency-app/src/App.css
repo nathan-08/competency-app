@@ -76,3 +76,21 @@
   background-color: cornflowerblue;
   border-bottom: 1px solid gray;
 }
+#abled:focus{     /*26G*/
+  background: cornflowerblue;
+}
+#disabled:disabled{   /*26E*/
+  background: rgb(243, 137, 137); 
+}
+#hover{
+  height: 200px;
+  width: 200px;
+  background: teal;
+}
+#hover:hover{   /*26H*/
+  background: blueviolet;
+}
+
+div:nth-child(odd){ /*26L*/
+  background: chartreuse;
+}

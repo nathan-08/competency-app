@@ -35,6 +35,22 @@ class App extends Component {
             <div></div>
         </div>
 
+
+
+
+        <br/>
+        <br/>
+
+        <span>focus input ==> </span>
+        <input className="neat-input" id="abled"/>
+        <span>input disabled ==> </span>
+        <input className="neat-input" id="disabled" disabled="true"/>
+        <br/><br/>
+        <div id="hover"></div>
+      
+  
+
+
       </div>
     );
   }
