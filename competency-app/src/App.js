@@ -5,6 +5,7 @@ import catjpg from './img/bigcat.jpg'
 import dooter from './img/doot.gif'
 import doot from './mp4/doot.mp4'
 import swing from './mp3/swing.mp3'
+import Fcomp from './comps/fcomp/fcomp'
 
 class App extends Component {
   render() {
@@ -115,6 +116,7 @@ class App extends Component {
             <source src={doot} type="video/mp4"/>
           </video>
           </div>
+          <Fcomp secretNumber={26}/>
           <div>
             {/* 56D   html audio tag  */}
           <h2 style={{margin:"0"}}> high quality swing music</h2>

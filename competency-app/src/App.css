@@ -110,6 +110,17 @@ body{
   flex-direction: row;  /*27F*/
   background: var(--color-variable); /*30C*/
   padding: 18px;
+  animation: colors 2s ease infinite;
+  justify-content:space-around;
+}
+@keyframes colors{
+  0% {background:darkcyan}
+  11% {background:darkcyan}
+  12% {background:darkorchid}
+  15% {background:darkorchid}
+  60% {background:darkorchid}
+  61% {background:darkcyan}
+  100% {background:darkcyan}
 }
 #flexbox > div{
   height: 140px;
