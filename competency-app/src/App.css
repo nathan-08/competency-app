@@ -94,3 +94,6 @@
 div:nth-child(odd){ /*26L*/
   background: chartreuse;
 }
+body{
+  background-image: url('./img/tile.jpg') /*23F*/
+}
