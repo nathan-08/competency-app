@@ -1,18 +1,18 @@
-.App{
+.App{     /*22C-2*/
   margin: 0 4vw;
 }
-#superawesome-div{
+#superawesome-div{   /*22C-1*/
   border: 2px solid gainsboro;
   background-color: pink;
   padding: 18px 0;
 }
-#superawesome-div > div {
+#superawesome-div > div { /*22C-3*/
   background-color: sandybrown;
 }
-#superawesome-div > div + section {
+#superawesome-div > div + section { /*22C-5*/
   background-color: lavender;
 }
-#superawesome-div p{
+#superawesome-div p{  /*22C-4*/
   font-family: Courier New, Courier, monospace;
   font-weight: bold;
   background-color: rebeccapurple;
