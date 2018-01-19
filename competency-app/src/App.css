@@ -1,5 +1,10 @@
 .App{     /*22C-2*/
+  position: relative;
   margin: 0 4vw;
+  min-height: 150vh;
+}
+#catjpg{
+  float:right;
 }
 #superawesome-div{   /*22C-1*/
   border: 2px solid gainsboro;
@@ -24,10 +29,49 @@
   font-weight: bold;
   letter-spacing: 2px;
 }
+#box-model-holder{
+  position: relative;
+  height: 100%;
+  background-color: orange;
+}
 #box-model{
+  position: relative; /*25C*/
   margin: 24px;     /*24C*/
   border: solid 24px cornflowerblue; /*24D*/
   padding: 24px;              /*24E*/
   box-sizing: border-box;  /*24F*/
   background-color: darkcyan;
+}
+#absolute-element{
+  position:absolute; /*25C*/
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 28px;
+  background-color: forestgreen;
+  padding: 14px;
+}
+#invisible-div{
+  margin-top: 24px;
+  background-color: cyan;
+  
+  padding: 20px;
+}
+#invisible-div > div{
+  height: 80px;
+  display: inline-block; /*25F*/
+  width: 80px;  
+  background-color: orange;
+  margin-right: 20px;
+  border: 2px solid fuchsia;
+}
+#fixed-element{
+  position: fixed; /*25C*/
+  bottom:0;
+  left:0;
+  width: 100vw;
+  height: 6vh;
+  padding: 6px;
+  background-color: cornflowerblue;
+  border-bottom: 1px solid gray;
 }
