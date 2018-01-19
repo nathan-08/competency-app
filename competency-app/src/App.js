@@ -63,10 +63,18 @@ class App extends Component {
           <div id="boxshadow">
           </div>
           <div id="gradient"></div>
-          <div id="texteffect"> fancy text
+          <div id="texteffect"> fancy text who examines the contents of a time capsule unearthed at his son's elementary school. Startling predictions found inside the capsule that have already come true lead him to believe that the world is going to end at the close of the week, and that he and his son are somehow involved in the destruction.[38] The film received mainly negative reviews but was the box office winner on its opening weekend
           </div>
         </div>
       
+        <div id='grid'>
+          <div className='grid-row'>
+            <div id='one'>some grid elements </div>
+            <div id='two'> </div>
+            <div id='three'> </div>
+          </div>   
+
+        </div>
   
 
 

@@ -86,7 +86,8 @@ div:nth-child(odd){ /*26L*/
   background: chartreuse;
 }
 body{
-  background-image: url('./img/tile.jpg') /*23F*/
+  background-image: url('./img/tile.jpg'); /*23F*/
+  --color-variable: mediumslateblue; /*30C*/
 }
 #nic{
   background: transparent;
@@ -107,7 +108,7 @@ body{
   align-items: center; /*27D*/
   flex-wrap: wrap;  /*27E*/
   flex-direction: row;  /*27F*/
-  background: mediumslateblue;
+  background: var(--color-variable); /*30C*/
   padding: 18px;
 }
 #flexbox > div{
@@ -136,7 +137,7 @@ p, div {
   height: 200px;
   width: 200px;
   background-color: snow;
-  box-shadow: 6px 8px 10px gray; /*30C*/
+  box-shadow: 6px 8px 10px gray; 
   background-image: url('./img/cat-technician.jpg');
   background-size: contain;
 }
@@ -144,7 +145,7 @@ p, div {
   height: 200px;
   width: 200px;
   margin: 22px;
-  border: 2px solid gray;
+  border: 2px solid gray;  /*31C*/
       /*30D*/
       background: rgb(241,231,103); /* Old browsers */
       background: -moz-linear-gradient(-45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%); /* FF3.6-15 */
@@ -160,4 +161,31 @@ p, div {
   color: rgb(255, 255, 255);
   background-color: rgb(6, 230, 255);
   text-shadow: 2px 2px rgb(131, 113, 113); /*30e*/
+  overflow: hidden;
+}
+
+#grid{
+  background:khaki;
+  display: grid; /*31D*/
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 10px;
+}
+#one{
+  grid-column: 1 / 3; 
+  grid-row: 1;
+  border: 3px solid salmon;
+  height: 20px;
+}
+#two {
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  border: 3px solid rgba(241,231,103,1);
+  height: 20px;
+}
+#three { 
+  grid-column: 1; 
+  grid-row: 2/5;
+  border: 2px solid darkcyan;
+  height: 20px;
 }
