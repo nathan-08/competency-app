@@ -4,7 +4,7 @@ import './App.css';
 import catjpg from './img/bigcat.jpg'
 import dooter from './img/doot.gif'
 import doot from './mp4/doot.mp4'
-import swing from './mp3/swing.mp3'
+import swing from './mp3/swing.3gp'
 
 class App extends Component {
   render() {
@@ -119,10 +119,17 @@ class App extends Component {
             {/* 56D   html audio tag  */}
           <h2 style={{margin:"0"}}> high quality swing music</h2>
               <audio controls='controls'>
-                <source src={swing} type='audio/mp3'/>
+                <source src={swing} type='audio/3gp'/>
               </audio>
           </div>
         </div>
+
+
+
+        {/* 57B Doctypes change how a browser reads a fils: 
+        an instruction that associates the document with a DTD, doc type definition
+        like a version of HTML. 
+        */}
         </div>
   
 
